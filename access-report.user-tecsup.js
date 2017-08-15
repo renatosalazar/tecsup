@@ -67,11 +67,7 @@
 		if ($('#jj_access_report').length === 0) 
 		{
       
-			$('#people-options > ul').append(
-        
-				'<li class="ui-menu-item" role="presentation">
-					<a id="jj_access_report" class="ui-corner-all" role="menuitem" tabindex="-1">
-						<i class="icon-analytics"></i> Access Report Data</a></li>');
+			$('#people-options > ul').append('<li class="ui-menu-item" role="presentation"><a id="jj_access_report" class="ui-corner-all" role="menuitem" tabindex="-1"><i class="icon-analytics"></i> Access Report Data</a></li>');
       
 			$('#jj_access_report').one('click', accessReport);
     
